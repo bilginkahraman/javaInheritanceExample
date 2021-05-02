@@ -1,12 +1,14 @@
 package javaInheritanceExample;
 
 public class InstructorManager {
-	public void addCourses(String[] courses, Instructor instructor) {
+	public void updateQuantityOfLecture(Instructor instructor) {
+		System.out.println(instructor.getId() + "Id li" + instructor.getName() +
 
-		for (String course : courses) {
-			System.out.println(instructor.getId() + "id'li egitmene " + course + "dersler eklendi");
+				"  adýndaki egitmen haftalýk ders saatini "
 
-		}
+				+ instructor.getQuantityOfLectureInAWeek() +
+
+				"ders saati olarak degiþtirdi");
 
 	}
 

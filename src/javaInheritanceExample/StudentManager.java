@@ -2,12 +2,9 @@ package javaInheritanceExample;
 
 public class StudentManager {
 
-	public void addCourses(String[] courses, Student student) {
-
-		for (String course : courses) {
-			System.out.println(student.getId() + "id'li ogrenciye" + course + "dersler eklendi");
-
-		}
+	public void updateSection(Student student) {
+		System.out.println(student.getId() + "Id li" + student.getFirstName() + student.getLastName()
+				+ "  adındaki ögrenci  " + student.getSection() + "bölümüne geçiş yaptı");
 
 	}
 
